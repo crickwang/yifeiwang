@@ -1,4 +1,4 @@
-# Yifei Wang
+## Yifei Wang
 Third-year computer science student at University of California San Diego. Experienced with machine learning algorithms, deep learning methods, and software design.
 Email: yiw085@ucsd.edu or crick1015464937@gmail.com 
 contact info: (+1) 858-539-6611 
