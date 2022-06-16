@@ -1,21 +1,23 @@
+## INTRODUCTION OF MYSELF
+
+I am currently an undergraduate student in Uuniversity of California San Diego :)  
+Although I'm still a second year student, I do know a lot about machine learnign algorithms!!!!!   
+If you want to know more about me, email me @ yiw085@ucsd.edu or call me at (+1) 858-539-6611.  
+You may also find me at APT **** @ 3737 Nobel Dr. San Diego, CA, USA, although it is not recommened. (I don't think you want to see a room of chaos)
+
 ## EDUCATION
 
-UNIVERSITY OF CALIFORNIA SAN DIEGO                                                             9500 Gilman Dr, La Jolla, CA 92093 
-Sophomore                                                                                                                                                            09/2020 - 06/2024 
+UNIVERSITY OF CALIFORNIA SAN DIEGO9500 Gilman Dr, La Jolla, CA 92093  
+Sophomore  
+09/2020 - 06/2024  
  
-•	Major: computer science. 
-•	GPA: 3.87. 
-•	In-depth learning of Python, Java, C, and C++ Language with 8 hours + weekly training experience on multiple code training platforms, including leetcode. 
-•	course description: 
-o	Advanced Data Structures: sophisticated description of multiple data structures in computer science, including tree, hash, and searching algorithm. 
-o	Using data structures, implement functionalities of the red-black tree, multiway tries, and ternary tree by overriding pre-existing functions and constructing these data structures with the different abstract data types. 
-o	Software engineering: in-depth development of android software 
-o	In-depth learning of data science and data analysis 
-o	Machine learning class that introduces multiple machine learning algorithms. 
-o	Intro to deep learning:  Implementation of A* searching algorithm, Markov decision tree, Monte Carlo simulation, and other deep learning methods. 
-•	Mastered data analysis and applied data analysis and python to complete a project, which investigated the abnormality of taxi fares in New York City using different charts, operations on datasets, and comparing multiple datasets simultaneously. 
-•	Using linear regression, randomized experiment, sampling, and hypothesis test in data analysis to complete a project 
-investigating whether the concentration of heavy ionic compounds has reached a fatal amount in tea although the project yielded a null result.
+•	Major: computer science.  
+•	GPA: 3.87.  
+•	In-depth learning of Python, Java, C, and C++ languages with 8 hours + weekly training experience on code training platforms. 
+•	Advanced Data Structures: sophisticated description of multiple data structures in computer science, including tree, hash, and searching algorithm.  
+•	Machine learning class that introduces multiple machine learning algorithms.  
+•	Intro to deep learning:  Implementation of A* searching algorithm, Markov decision tree, Monte Carlo simulation, and other deep learning methods. 
+
 
 ## EXPERIENCE 
 
