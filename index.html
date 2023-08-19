@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Resume of Yifei Wang" />
+	<meta name="keywords" content="HTML" />
+	<meta name="author" content="Yifei Wang" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="images/ucsd.gif" rel="gif"/>
+	<title>Yifei Wang</title>
+</head>
+
+<body>
+	<header>
+		<section class="begin">
+			<div>
+				<svg width="200" height="90">
+					<rect x="50" y="10" rx="20" ry="10" width="150" height="75"
+					style="fill:blue;stroke:rgb(23, 219, 98);stroke-width:5;opacity:0.5" />
+				</svg>
+				<canvas id="myCanvas" width="200" height="100"></canvas>
+				<script>
+					var c = document.getElementById("myCanvas");
+					var ctx = c.getContext("2d");
+					ctx.font = "30px Arial";
+					ctx.fillText("RESUME", 10, 50);
+				</script>
+			</div>
+		</section>
+		<section class="media">
+			<template>
+				<iframe src="images/ucsd.gif" title="UCSD" height="393" width="1200"></iframe>
+			</template>
+			<audio controls>
+				<source src="video/videoplayback.mp4" type="audio/mpeg">
+			</audio>
+			<video controls height="393" width="700">
+				<source src="videos/videoplayback.mp4" type="video/mp4" />
+			</video>
+			<figure>
+				<iframe src="images/ucsd.gif" title="UCSD" height="393" width="1200"></iframe>
+				<figcaption>Figure1: just a gif</figcaption>
+			</figure>
+		</section>
+		<hr>
+		<br>
+		<h1 style="text-align:center;">YIFEI WANG</h1>
+		<section class="intro">
+			<div style="text-align:center;" id="my-info">
+				<button onclick="summary()">don't click me</button>
+				<br>
+			<script>
+				function summary()
+				{
+					document.getElementById("my-info").innerHTML="I said so :(";
+				}
+			</script>
+			</div>
+			<p style="text-align:center;">
+				<i>
+					<strong>
+						Email: yifeiwang.working@gmail.comS
+						<br>
+						Contact Info: (+1) (858)-539-6611
+						<br>
+						LinkedIn account: www.linkedin.com/in/YifeiWang2002
+						<br>
+						Address: 3737 Nobel Drive, Apartment 2316, San Diego, CA 92122, USA
+						<br>
+						onclick method linked with <code>summary()</code> method
+					</strong>
+				</i>
+			</p>
+		</section>
+		<section class="image">
+
+				<picture>
+					<img src="images/pic.jpg" style="float: right;" alt="self" height="430" width="430">
+				</picture>
+
+		</section>
+		<hr>
+	</header>
+
+	<main>
+		<h2>SUMMARY</h2>
+		<section class="text">
+			<aside>
+			<pre>
+				A <b>computer science and engineering</b> bachelor candidate,
+				with <em>2 years</em> of learning experience in data science and software engineering and 
+				proficiency in using
+				<span style="color: blue;">
+					Java, C, C++, Python, and SQL.
+				</span>
+			</pre>
+			</aside>
+		</section>
+
+		<h2>MYSELF</h2>
+		<section class="self">
+			<form>
+				<fieldset>
+					<legend>birthday</legend>
+				</fieldset>
+			</form>
+			<textarea id="birthday" name="birthday" rows="1" cols="20">Guess my birthday</textarea>
+			<input type="submit" value="Submit">
+			<br>
+			<label for = "gender">Guess my gender</label>
+			<input list="genders" id="gender" name="gender">
+			<datalist id="genders">
+				<option value="Male">
+				<option value="Female">
+				<option value="others">
+			</datalist>
+		</section>
+		<hr><br>
+
+		<h2>EDUCATION</h2>
+		<section class="edu">
+			<h3>University of California San Diego</h3>
+			<nav>
+			<a href="https://ucsd.edu">UCSD</a>
+			<a href="http://tritonlink.ucsd.edu">TritonLink</a>
+			</nav>
+			<ol>
+				<li>Major: Computer Science and Engineering; GPA: 3.84</li>
+
+				<li>
+					In-depth learning of Python, Java, C, and C++ languages with 
+					8 hours + weekly training experience on code training platforms.
+				</li>
+
+				<li>
+					<details>
+						<summary>CSE100: Advanced Data Structures</summary>
+						<p>
+							sophisticated description of multiple data structures in computer science, including tree, hash, and searching algorithms. 
+							Compared with my counterparts, I can proficiently utilize appropriate algorithms to achieve the same functionality in less time and with less complexity. 
+						</p>
+					</details>
+				</li>
+
+				<li>
+					<details>
+						<summary>CSE150B: Intro to deep learning</summary>
+						<p>
+							Implementation of A* searching algorithm, Markov decision tree, Monte Carlo simulation, and other deep learning methods. 
+							Few of my counterparts have experience in writing learning small games, 
+							including 2048 or blackjack, and I have an advantage over them by having these valuable experiences.
+						</p>
+					</details>
+				</li>
+			</ol>
+			<br>
+			<p>A list of past course experiences</p>
+			<form>
+				<label for="courses">Choose a course:</label>
+				<select name="courses" id="courses">
+				  <optgroup label="CSE">
+					<option>CSE100</option>
+					<option>CSE150</option>
+				  </optgroup>
+				</select>
+				<br>
+			  </form>
+		</section>
+		<br><hr>
+		<h2>SKILLS</h2>
+		<section class="skills">
+			<table>
+				<caption style="text-align:center">logic gates</caption>
+				<colgroup>
+					<col span="3" style="background-color:green">
+				</colgroup>
+
+				<tr>
+				<th>null</th>
+				<th>0</th>
+				<th>1</th>
+				</tr>
+
+				<tr>
+				<td>0</td>
+				<td>00</td>
+				<td>01</td>
+				</tr>
+
+				<tr>
+				<td>1</td>
+				<td>10</td>
+				<td>11</td>
+				</tr>
+
+		    </table>
+			<ul>
+				<li>
+					Machine Learning: Well-versed in manipulating multiple machine learning algorithms including KNN, L1&L2 regularization, and gradient optimization. 
+				</li>
+				<li>
+					Algorithms: Proficient in multiple searching algorithms including Dijkstra, A*, and quick sort.
+				</li>
+				<li>
+					Reinforcement Learning: mastered in manipulating multiple deep learning algorithms including reinforcement learning, Q-learning, and Markov decision tree.
+				</li>
+				<li>
+					Data Management: capable of understanding SQL statements and processing data using SQL commands.
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<hr/>
+		<p>This page was made by Yifei Wang, all rights reserved</p>
+	</footer>
+	<script type="module">
+		import { update } from './scripts/main.js';
+		window.update = update;
+	</script>
+	<script nomodule src="scripts/main-es5.js"></script>
+</body>
+
+</html>
